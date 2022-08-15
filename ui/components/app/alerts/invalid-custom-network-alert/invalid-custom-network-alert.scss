@@ -1,6 +1,6 @@
 .invalid-custom-network-alert {
   &__content {
-    border-radius: 0;
+    border-radius: 0px;
     padding: 0 24px 16px 24px;
 
     > p {
@@ -51,6 +51,6 @@
     font-size: 14px;
     border: 1px solid var(--color-error-default);
     background: var(--color-error-muted);
-    border-radius: 3px;
+    border-radius: 0px;
   }
 }

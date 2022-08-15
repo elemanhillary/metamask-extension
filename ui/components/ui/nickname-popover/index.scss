@@ -1,7 +1,7 @@
 .nickname-popover {
   &__popover-wrap {
     height: 232px;
-    border-radius: 4px;
+    border-radius: 0px;
     background: var(--color-background-default);
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
     align-items: center;
     min-height: 25px;
     background: var(--color-background-alternative);
-    border-radius: 40px;
+    border-radius: 0px;
     padding-left: 8px;
     padding-right: 2px;
     margin-top: 8px;
@@ -68,7 +68,7 @@
     margin-top: 16px;
     width: 152px;
     height: 40px;
-    border-radius: 100px;
+    border-radius: 0px;
     background: var(--color-primary-default);
   }
 }

@@ -97,7 +97,7 @@
       button {
         height: 39px;
         width: 133px;
-        border-radius: 39px;
+        border-radius: 0px;
         padding: 0;
       }
 
@@ -112,7 +112,7 @@
   &__connected-status-popover-bg {
     height: 55px;
     width: 120px;
-    border-radius: 34px;
+    border-radius: 0px;
     position: absolute;
     top: 73px;
     opacity: 1;
@@ -209,7 +209,7 @@
   }
 
   &__new-network-added {
-    border-radius: 10px;
+    border-radius: 0px;
     text-align: center;
 
     &__check-circle {

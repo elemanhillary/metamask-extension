@@ -52,7 +52,7 @@
     align-items: center;
     justify-content: center;
     padding: 8px 0 18px;
-    border-radius: 4px;
+    border-radius: 0px;
     color: var(--color-overlay-inverse);
 
     &--text {
@@ -166,7 +166,7 @@
 
   &__chip {
     justify-content: center;
-    border-radius: 13px;
+    border-radius: 0px;
     height: 32px;
     width: 120px;
 
@@ -174,7 +174,7 @@
       width: 120px;
       box-shadow: var(--shadow-size-xs) var(--color-shadow-default);
       border-width: 2px;
-      border-radius: 13px;
+      border-radius: 0px;
       height: 32px;
     }
   }

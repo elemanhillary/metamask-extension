@@ -37,7 +37,7 @@
 .d3-flame-graph-tip {
     background-color: black;
     border: none;
-    border-radius: 3px;
+    border-radius: 0px;
     padding: 5px 10px 5px 10px;
     min-width: 250px;
     text-align: left;

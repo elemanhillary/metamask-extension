@@ -6,6 +6,7 @@ import {
   INITIALIZE_CREATE_PASSWORD_ROUTE,
   INITIALIZE_IMPORT_WITH_SEED_PHRASE_ROUTE,
 } from '../../../helpers/constants/routes';
+import TextField from '../../../components/ui/text-field';
 
 export default class SelectAction extends PureComponent {
   static propTypes = {
@@ -51,24 +52,45 @@ export default class SelectAction extends PureComponent {
             </div>
             <div className="select-action__select-buttons">
               <div className="select-action__select-button">
-                <div className="select-action__button-content">
-                  <div className="select-action__button-symbol">
-                    <i className="fa fa-download fa-2x" />
-                  </div>
-                  <div className="select-action__button-text-big">
+                {/* <div className="select-action__button-content"> */}
+                  {/* <div className="select-action__button-text-big">
                     {t('noAlreadyHaveSeed')}
                   </div>
                   <div className="select-action__button-text-small">
                     {t('importYourExisting')}
+                  </div> */}
+                  <div className="create-new-vault__create-password">
+                    <TextField
+                      id="password"
+                      label={t('newPassword')}
+                      type="password"
+                      // value={password}
+                      // onChange={(event) => onPasswordChange(event.target.value)}
+                      // error={passwordError}
+                      autoComplete="new-password"
+                      margin="normal"
+                      largeLabel
+                    />
+                    <TextField
+                      id="confirm-password"
+                      label={t('confirmPassword')}
+                      type="password"
+                      // value={confirmPassword}
+                      // onChange={(event) => onConfirmPasswordChange(event.target.value)}
+                      // error={confirmPasswordError}
+                      autoComplete="new-password"
+                      margin="normal"
+                      largeLabel
+                    />
                   </div>
-                </div>
+                {/* </div> */}
                 <Button
                   type="primary"
                   className="first-time-flow__button"
                   onClick={this.handleImport}
                   data-testid="import-wallet-button"
                 >
-                  {t('importWallet')}
+                  Sign in
                 </Button>
               </div>
               <div className="select-action__select-button">

@@ -25,10 +25,10 @@ $sizes: (
     &--size-#{$variant} {
       height: #{2 * $size}px;
       width: #{2 * $size}px;
-      border-radius: #{$size}px;
+      border-radius: 0px;
 
       #{$self}__inner-circle {
-        border-radius: #{$size}px;
+        border-radius: 0px;
         height: #{$size}px;
         width: #{$size}px;
       }

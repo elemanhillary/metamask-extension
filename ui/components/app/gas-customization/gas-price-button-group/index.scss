@@ -33,7 +33,7 @@
     align-items: center;
     display: flex;
     padding-top: 17px;
-    border-radius: 4px;
+    border-radius: 0px;
     border-color: var(--color-primary-muted);
     background: var(--color-background-default);
     color: var(--color-text-alternative);
@@ -196,7 +196,7 @@
     width: 108px;
     height: 97px;
     box-shadow: var(--shadow-size-sm) var(--color-shadow-default);
-    border-radius: 6px;
+    border-radius: 0px;
     border: none;
 
     div {
@@ -231,7 +231,7 @@
     .button-check-wrapper {
       height: 16px;
       width: 16px;
-      border-radius: 8px;
+      border-radius: 0px;
       position: absolute;
       top: -11px;
       right: -10px;

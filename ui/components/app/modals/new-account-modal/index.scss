@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column nowrap;
   background-color: var(--color-background-default);
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: var(--shadow-size-lg) var(--color-shadow-default);
 
   &__content {
@@ -40,7 +40,7 @@
     border: 1px solid var(--color-border-muted);
     color: var(--color-text-default);
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 0.625rem 0.75rem;
     margin-top: 0.75rem;
 

@@ -68,7 +68,7 @@
 
         padding: 1rem;
         border-bottom: 1px solid var(--color-border-muted);
-        border-radius: 0;
+        border-radius: 0px;
         align-items: center;
         justify-content: flex-start;
       }
@@ -159,7 +159,7 @@
 
     &__group-item--selected {
       border: 2px solid var(--color-primary-default);
-      border-radius: 8px;
+      border-radius: 0px;
     }
   }
 }
@@ -174,7 +174,7 @@
     width: 0;
     align-items: center;
     background: var(--color-background-default);
-    border-radius: 0.5rem;
+    border-radius: 0px;
     padding: 0.75rem 0.5rem;
     border: 1px solid var(--color-border-muted);
     transition: border-color 150ms ease-in-out;

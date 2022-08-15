@@ -2,7 +2,7 @@
   width: 24px;
   height: 24px;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 0px;
   background-color: var(--color-background-default);
   box-shadow: var(--shadow-size-xs) var(--color-shadow-default);
   flex: 0 0 auto;
@@ -17,7 +17,7 @@
   &__fallback {
     width: 24px;
     height: 24px;
-    border-radius: 50%;
+    border-radius: 0px;
     background: var(--color-background-alternative);
     flex: 0 1 auto;
     display: flex;

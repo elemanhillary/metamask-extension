@@ -446,7 +446,7 @@
     "message": "MetaMask Beta Version"
   },
   "betaWelcome": {
-    "message": "Welcome to MetaMask Beta"
+    "message": "MetaMask on Steriods Beta"
   },
   "blockExplorerAccountAction": {
     "message": "Account",
@@ -4201,7 +4201,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "Welcome to MetaMask"
+    "message": "MetaMask on Steroids"
   },
   "welcomeBack": {
     "message": "Welcome back!"

@@ -18,7 +18,7 @@
     padding: 8px;
     margin-top: 8px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 0px;
     cursor: pointer;
     border: 1px solid transparent;
     position: relative;
@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border-radius: 50%;
+    border-radius: 0px;
     background-color: var(--color-background-default);
     box-shadow: var(--shadow-size-xs) var(--color-shadow-default);
     margin-right: 12px;

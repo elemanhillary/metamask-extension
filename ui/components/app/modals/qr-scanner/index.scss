@@ -4,7 +4,7 @@
   background-color: var(--color-background-default);
   display: flex;
   flex-flow: column;
-  border-radius: 8px;
+  border-radius: 0px;
 
   &__title {
     @include H3;

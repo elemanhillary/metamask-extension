@@ -5,7 +5,7 @@
   z-index: 25;
   display: flex;
   flex-flow: column;
-  border-radius: 8px;
+  border-radius: 0px;
   overflow-y: auto;
 
   &__header {
@@ -195,7 +195,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--color-background-default);
-    border-radius: 0;
+    border-radius: 0px;
     flex: 1;
     overflow-y: auto;
   }

@@ -1,7 +1,7 @@
 .numeric-input {
   border: 1px solid var(--color-border-default);
   position: relative;
-  border-radius: 6px;
+  border-radius: 0px;
 
   &--error {
     border-color: var(--color-error-default);
@@ -11,7 +11,7 @@
     width: 100%;
     border: 0;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 0px;
     background-color: var(--color-background-default);
     color: var(--color-text-default);
 
